@@ -10,5 +10,5 @@ int main()
     for(int i=0;i<n;i++)
     {long long x;cin>>x;
     t+=x;d+=a[t-k];a[t]++;}
-    cout<<d;return 0;
+    cout<<d;
 }
